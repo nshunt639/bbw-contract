@@ -12,7 +12,7 @@ contract BBW is ERC721Enumerable, Ownable {
 
     // Sale
     uint256 public constant TOTAL_SUPPLY = 10000;
-    uint256 public constant PUBLIC_SUPPLY = 9691;
+    uint256 public constant PUBLIC_SUPPLY = 9191;
     uint public constant MAX_PURCHASABLE = 100;
     uint public constant PRESALE_MAX_PURCHASABLE = 3;
     uint256 public constant MINT_PRICE = 100000000000000000; // 0.1 ETH
