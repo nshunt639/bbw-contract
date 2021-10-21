@@ -27,7 +27,7 @@ contract BBW is ERC721Enumerable, Ownable {
 
     // Base URI
     string private _baseURIextended = "ipfs://QmRC3ZuqFeBLkEobj3i8jLpXRRwxQZcpDzYEARJPR9D321/";
-    string private _contractURI = "ipfs://QmWr2hiT47MxsKekm1cLS49npGZXgpmXDUHLsTFWPagSUS";
+    string private _contractURI = "ipfs://QmS8mnG2snYzMaahoAuLtMrECVQMMZff74T42bbC7fND93";
 
     // Reveal variables
     bool public metadataRevealed = false;
