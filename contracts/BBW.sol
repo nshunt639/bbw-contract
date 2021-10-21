@@ -37,7 +37,7 @@ contract BBW is ERC721Enumerable, Ownable {
 
     mapping(address => bool) public whitelistedAddresses;
 
-    constructor() ERC721("BullsandBearsOfficial", "BBW") {
+    constructor() ERC721("BullsandBears Genesis", "BBW") {
     }
 
     function _baseURI() internal view virtual override returns (string memory) {
