@@ -26,7 +26,6 @@ contract BBW is ERC721Enumerable, Ownable {
     bool public saleStarted = true;
 
     // Base URI
-    string private _placeholderBaseURI="ipfs://QmdtPn7wzVtpuCXrfEL5ESr2oKf9gmNGvvndzvDVz8uxEB/";
     string private _baseURIextended = "ipfs://QmRC3ZuqFeBLkEobj3i8jLpXRRwxQZcpDzYEARJPR9D321/";
     string private _contractURI = "ipfs://QmWr2hiT47MxsKekm1cLS49npGZXgpmXDUHLsTFWPagSUS";
 
