@@ -18,9 +18,9 @@ contract BBW is ERC721Enumerable, Ownable {
     uint256 public constant MINT_PRICE = 100000000000000000; // 0.1 ETH
 
     // Dates
-    uint256 public presaleStartTime = 1634648400; // Tue Oct 19 2021 13:00:00 GMT+0000
-    uint256 public presaleEndTime = 1634814000;    // 46 hrs from Tue Oct 19 2021 13:00:00 GMT+0000 
-    uint256 public saleStartTime = 1635861600; // Tue Nov 02 2021 14:00:00 GMT+0000
+    uint256 public presaleStartTime = 1635591600; // Sat Oct 30 2021 11:00:00 GMT+0000
+    uint256 public presaleEndTime = 1635850800;    // Tue Nov 02 2021 11:00:00 GMT+0000
+    uint256 public saleStartTime = 1635854400; // Tue Nov 02 2021 12:00:00 GMT+0000
 
     // Team can emergency start/pause sale
     bool public saleStarted = true;
