@@ -112,10 +112,6 @@ contract BBW is ERC721Enumerable, Ownable {
         metadataRevealed = true;
     }
 
-    function unreveal() public onlyOwner {
-        metadataRevealed = false;
-    }
-
     function batchWhitelist(address[] memory _users) public onlyOwner {
         uint size = _users.length;
         
