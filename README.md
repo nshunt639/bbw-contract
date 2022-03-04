@@ -1,7 +1,5 @@
 
-# DeFi Smart Accounts
-
-This repository contains the core contracts for Instadapp DeFi Smart Accounts (DSAs).
+# ERC721 extended Smart Contract for NFT Minting 
   
 
 ## Installation
@@ -24,18 +22,6 @@ Compile contracts
 
 ```
 npm run compile
-```
-
-Run the testcases
-
-```
-npm test
-```
-
-Get the test coverage
-
-```
-npm run coverage
 ```
 
 Contract verify
